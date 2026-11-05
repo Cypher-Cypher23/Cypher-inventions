@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2e7"><meta name="description" content="Meet Shishi Foodz. Tanzanian comfort food with big flavour and nyumbani vibes. Explore biryani, pilau, mishkaki and more.">
+  <title>Shishi Foodz — Big flavour. Nyumbani vibes.</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600;650;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+  <div class="topline"><span>LOCAL SOUL. GENEROUS PLATES. ALWAYS SHISHI.</span><span class="topline-right">KARIBU SANA <span aria-hidden="true">✳</span> WELCOME TO THE TABLE</span></div>
+  <header class="header wrap">
+    <a href="#" class="brand" aria-label="Shishi Foodz home"><img src="assets/logo.svg" width="164" height="54" alt="Shishi Foodz"></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a class="active" href="#menu">Our menu</a><a href="#story">The Shishi story</a><a href="#table">Come hungry</a></nav>
+    <div class="header-actions"><button class="bag-button" data-open-bag><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Zm3 1V6a4 4 0 0 1 8 0v2"/></svg>Your bag <span class="bag-count">0</span></button><button class="mobile-toggle" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button></div>
+    <nav class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#menu">Our menu</a><a href="#story">The Shishi story</a><a href="#table">Come hungry</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> A LITTLE SPICE. A LOT OF SOUL.</div>
+        <h1 id="hero-title">BIG FLAVOUR.<br><span>NYUMBANI</span><br>VIBES<span class="title-dot">.</span></h1>
+        <p>That first bite of home. The spices you know.<br class="desktop-break"> The food you come back for. This is Shishi.</p>
+        <a class="button primary" href="#menu">Find your flavour <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+        <div class="hero-footnote"><span class="drawn-arrow" aria-hidden="true">↳</span><span>Made for good food people.</span></div>
+      </div>
+      <div class="hero-art"><div class="food-disc"></div><div class="orbit-text" aria-hidden="true">STRAIGHT FROM THE SWAHILI SOUL</div><div class="tiny-spark spark-one" aria-hidden="true">✳</div><div class="tiny-spark spark-two" aria-hidden="true">✦</div><img class="hero-plate" src="assets/biryani.png" alt="A generous plate of chicken biryani with saffron rice, crispy onions, lime and kachumbari" width="1254" height="1254" fetchpriority="high"><div class="flavour-stamp"><span>100%</span><strong>TANZANIAN<br>FLAVOUR</strong><svg viewBox="0 0 60 35" aria-hidden="true"><path d="M8 26C45 35 56 7 46 7c-6 0-7 7-5 12C28 30 18 27 8 26Z"/><path d="M46 7c0-5 4-7 8-5"/></svg></div><div class="plate-note"><span>Meet your new favourite</span><svg viewBox="0 0 90 65" aria-hidden="true"><path d="M3 55C50 67 71 31 72 6m-11 8L73 4l9 12"/></svg><strong>THE SHISHI BIRYANI</strong></div></div>
+      <div class="hero-bottom"><span>ROOTED IN TANZANIA. SERVED WITH LOVE.</span><a href="#menu">GOOD FOOD THIS WAY <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <div class="ticker" aria-label="Biryani, pilau, mishkaki, chipsi mayai, ugali — chakula cha nyumbani"><div aria-hidden="true">BIRYANI <span>✳</span> PILAU <span>✳</span> MISHKAKI <span>✳</span> CHIPSI MAYAI <span>✳</span> CHAKULA CHA NYUMBANI <span>✳</span> BIRYANI <span>✳</span> PILAU <span>✳</span> MISHKAKI <span>✳</span></div></div>
+    <section class="menu-section wrap" id="menu" aria-labelledby="menu-title"><div class="section-heading"><div><div class="eyebrow">THE GOOD STUFF</div><h2 id="menu-title">HUNGRY? <span>WE GOT YOU.</span></h2></div><p>Coastal classics. Street-side favourites.<br>Every plate, a little piece of home.</p></div>
+      <div class="menu-toolbar"><div class="filters" role="group" aria-label="Filter menu"><button class="filter active" data-filter="favourites" aria-pressed="true">Shishi favourites <span aria-hidden="true">✳</span></button><button class="filter" data-filter="all" aria-pressed="false">The whole menu</button><button class="filter" data-filter="rice" aria-pressed="false">Rice & all things nice</button><button class="filter" data-filter="street" aria-pressed="false">Street bites</button><button class="filter" data-filter="drinks" aria-pressed="false">Sip something</button></div><span class="currency-note">A LITTLE TASTE OF TZ · PRICES IN TSH</span></div>
+      <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+      <div class="menu-note"><span><span aria-hidden="true">✳</span> A little extra pili pili? We understand.</span><span>Food allergies? Check the ingredients before you dig in.</span></div>
+    </section>
+    <section class="story-section" id="story" aria-labelledby="story-title"><div class="wrap story-grid"><div class="story-art"><div class="story-photo" role="img" aria-label="Tanzanian beef pilau with kachumbari"></div><div class="story-sticker">SAME ROOTS.<br>FRESH ENERGY.<span aria-hidden="true">↗</span></div><span class="story-caption">Chakula kizuri, furaha tele.</span></div><div class="story-copy"><div class="eyebrow">KARIBU KWETU — WELCOME HOME</div><h2 id="story-title">SOME FLAVOURS<br>JUST <span>FEEL LIKE HOME.</span></h2><p>The smell of pilau spices filling the kitchen. A plate passed around the table. The last piece of mishkaki everyone has their eye on.</p><p>That’s the feeling behind Shishi Foodz. A celebration of Tanzanian food, from the spice-rich coast to the street corners we love. Familiar favourites, big-hearted portions, and plenty of pili pili.</p><div class="story-signoff">Good food. Good company. Shishi.<span aria-hidden="true">♡</span></div></div></div></section>
+    <section class="table-section wrap" id="table"><div class="table-eyebrow"><span aria-hidden="true">✳</span><span>THERE’S ALWAYS ROOM FOR ONE MORE.</span><span aria-hidden="true">✳</span></div><h2>COME HUNGRY.<br>LEAVE <span>HAPPY.</span></h2><p>Lunch plans? Sorted. Family feast? Say less.<br>Build your perfect plate and bring your appetite.</p><a class="button primary" href="#menu">Let’s eat <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a><div class="table-doodle" aria-hidden="true"><svg viewBox="0 0 180 160"><path d="M18 81c9 40 29 56 68 56s65-20 76-56H18Zm-7 0h158M63 148h47M54 62c-24-24 25-26 2-52m34 52C66 38 115 36 92 10m34 52c-24-24 25-26 2-52"/></svg><span>Karibu chakula!</span></div></section>
+  </main>
+  <footer><div class="footer-main wrap"><a href="#" class="brand" aria-label="Back to top"><img src="assets/logo.svg" alt="Shishi Foodz" width="164" height="54" loading="lazy"></a><span>TANZANIAN SOUL. SHISHI STYLE.</span><a href="#menu">Find your next favourite <span aria-hidden="true">↗</span></a></div><div class="footer-bottom wrap"><span>© <span id="year">2026</span> Shishi Foodz. Made with a little spice.</span><span>A restaurant concept. Menu & prices are illustrative. Ordering is a demo.</span><a href="#">BACK TO TOP ↑</a></div></footer>
+  <div class="drawer-overlay" hidden></div><aside class="bag-drawer" role="dialog" aria-modal="true" aria-labelledby="bag-title" hidden><div class="drawer-header"><div><div class="eyebrow">GOOD CHOICES, BY THE WAY.</div><h2 id="bag-title">YOUR BAG<span>.</span></h2></div><button class="icon-button close-bag" aria-label="Close bag">×</button></div><div class="bag-content"></div><div class="bag-summary" hidden></div></aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
