@@ -25,7 +25,7 @@ function imageMarkup(item,thumb=false) {
 }
 function renderMenu(){
   const visible=menu.filter(item=>currentFilter==='all'||(currentFilter==='favourites'?item.favourite:item.category===currentFilter));
-  grid.innerHTML=visible.map((item,i)=>`<article class="menu-card" style="animation-delay:${i*45}ms"><div class="card-image ${item.image!=='biryani'&&item.image!=='juice'?`food-sprite food-${item.image}`:''}" ${item.image!=='biryani'&&item.image!=='juice'?`role="img" aria-label="${item.name}"`:''}>${imageMarkup(item)}${item.label?`<span class="card-label ${item.labelRed?'red':''}">${item.label}</span>`:''}</div><div class="card-title-row"><h3>${item.name}</h3></div><p class="card-description">${item.desc}</p><div class="card-bottom"><span class="price"><small>TSh</small> ${money(item.price)}</span><button class="add-button" data-add="${item.id}" aria-label="Add ${item.name} to bag">+</button></div></article>`).join('');
+  grid.innerHTML=visible.map((item,i)=>`<article class="menu-card" style="animation-delay:${i*65}ms"><div class="card-image ${!['biryani','juice'].includes(item.image)?`food-sprite food-${item.image}`:''}" ${!['biryani','juice'].includes(item.image)?`role="img" aria-label="${item.name}"`:''}>${imageMarkup(item)}</div><div class="card-details"><span class="card-label">${item.label||'A STREET-SIDE CLASSIC'}</span><div class="card-title-row"><h3>${item.name}</h3></div><p class="card-description">${item.desc}</p><div class="card-bottom"><span class="price"><small>TSh</small> ${money(item.price)}</span><button class="add-button" data-add="${item.id}" aria-label="Add ${item.name} to bag">+</button></div></div></article>`).join('');
 }
 document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{
   currentFilter=button.dataset.filter;
@@ -36,7 +36,7 @@ function persist(){try{localStorage.setItem('shishi-bag',JSON.stringify(bag));}c
 function toast(message){const el=document.querySelector('.toast');el.textContent=message;el.classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('visible'),2600);}
 document.addEventListener('click',event=>{
   const add=event.target.closest('[data-add]');
-  if(add){const item=menu.find(i=>i.id===add.dataset.add);if(!item)return;if((bag[item.id]||0)>=99){toast('That’s a feast! Maximum 99 portions per dish.');return;}bag[item.id]=(bag[item.id]||0)+1;persist();toast(`${item.name} added. Good choice!`);}
+  if(add){const item=menu.find(i=>i.id===add.dataset.add);if(!item)return;if((bag[item.id]||0)>=99){toast('That’s a feast! Maximum 99 portions per dish.');return;}bag[item.id]=(bag[item.id]||0)+1;persist();toast(`${item.name} added. Good choice!`);add.classList.remove('added');void add.offsetWidth;add.classList.add('added');const bagButton=document.querySelector('.bag-button');bagButton.classList.remove('bag-bump');void bagButton.offsetWidth;bagButton.classList.add('bag-bump');}
   const qty=event.target.closest('[data-qty]');
   if(qty){const id=qty.dataset.id;if(!bag[id])return;bag[id]=Math.min(99,bag[id]+Number(qty.dataset.qty));if(bag[id]<=0)delete bag[id];persist();renderBag();const next=document.querySelector(`[data-id="${id}"][data-qty="${qty.dataset.qty}"]`);(next||document.querySelector('.close-bag')).focus();}
   const remove=event.target.closest('[data-remove]');if(remove){delete bag[remove.dataset.remove];persist();renderBag();document.querySelector('.close-bag').focus();}
@@ -45,8 +45,8 @@ const drawer=document.querySelector('.bag-drawer');
 const overlay=document.querySelector('.drawer-overlay');
 const content=document.querySelector('.bag-content');
 const summary=document.querySelector('.bag-summary');
-function openBag(){previousFocus=document.activeElement;bagView='bag';renderBag();drawer.hidden=false;overlay.hidden=false;document.body.style.overflow='hidden';document.querySelector('.close-bag').focus();}
-function closeBag(){drawer.hidden=true;overlay.hidden=true;document.body.style.overflow='';previousFocus?.focus();}
+function openBag(){previousFocus=document.activeElement;bagView='bag';renderBag();drawer.hidden=false;overlay.hidden=false;document.body.style.overflow='hidden';document.querySelectorAll('main,header,footer').forEach(el=>el.inert=true);document.querySelector('.close-bag').focus();}
+function closeBag(){drawer.hidden=true;overlay.hidden=true;document.body.style.overflow='';document.querySelectorAll('main,header,footer').forEach(el=>el.inert=false);previousFocus?.focus();}
 document.querySelectorAll('[data-open-bag]').forEach(b=>b.addEventListener('click',openBag));
 document.querySelector('.close-bag').addEventListener('click',closeBag);overlay.addEventListener('click',closeBag);
 document.addEventListener('keydown',e=>{
@@ -56,7 +56,7 @@ document.addEventListener('keydown',e=>{
 });
 function renderBag(){
   bagView='bag';summary.hidden=!count();
-  if(!count()){content.innerHTML='<div class="bag-empty"><div class="empty-icon" aria-hidden="true">✳</div><h3>A LITTLE EMPTY IN HERE.</h3><p>Your next favourite is waiting.<br>Let’s find you something delicious.</p><button class="button primary browse-menu">Explore the menu <span aria-hidden="true">↗</span></button></div>';content.querySelector('.browse-menu').addEventListener('click',()=>{closeBag();document.querySelector('#menu').scrollIntoView({behavior:'smooth'});});return;}
+  if(!count()){content.innerHTML='<div class="bag-empty"><div class="empty-icon" aria-hidden="true">S.</div><h3>A little empty in here.</h3><p>Your next favourite is waiting.<br>Let’s find you something delicious.</p><button class="button primary browse-menu">Explore the menu <span aria-hidden="true">↗</span></button></div>';content.querySelector('.browse-menu').addEventListener('click',()=>{closeBag();document.querySelector('#menu').scrollIntoView({behavior:motionEnabled()?'smooth':'instant'});});return;}
   content.innerHTML=menu.filter(item=>bag[item.id]).map(item=>`<div class="bag-item"><div class="bag-thumb ${!['biryani','juice'].includes(item.image)?`food-sprite food-${item.image}`:''}" aria-hidden="true">${imageMarkup(item,true)}</div><div class="bag-item-info"><h3>${item.name}</h3><p>TSh ${money(item.price)} each</p><div class="quantity"><button data-qty="-1" data-id="${item.id}" aria-label="One fewer ${item.name}">−</button><span aria-label="Quantity">${bag[item.id]}</span><button data-qty="1" data-id="${item.id}" aria-label="One more ${item.name}" ${bag[item.id]>=99?'disabled':''}>+</button><button class="remove-item" data-remove="${item.id}" aria-label="Remove ${item.name}">Remove</button></div></div></div>`).join('');
   summary.innerHTML=`<div class="total-row"><span>Subtotal</span><span>TSh ${money(total())}</span></div><button class="button primary review-order">Review your meal <span aria-hidden="true">↗</span></button><p class="demo-note">This is a demo menu. No payment is taken and no order is sent to a restaurant. Prices are illustrative.</p>`;
   summary.querySelector('.review-order').addEventListener('click',reviewOrder);
@@ -68,7 +68,7 @@ function reviewOrder(){
   content.querySelector('form').addEventListener('submit',e=>{e.preventDefault();const form=new FormData(e.target);const name=String(form.get('name')).trim();if(!name){const field=content.querySelector('input');field.setCustomValidity('Please enter your name.');field.reportValidity();field.addEventListener('input',()=>field.setCustomValidity(''),{once:true});return;}const orderText=`SHISHI FOODZ — DEMO MEAL\nFor: ${name}\n\n${menu.filter(i=>bag[i.id]).map(i=>`${bag[i.id]} × ${i.name} — TSh ${money(i.price*bag[i.id])}`).join('\n')}\n\nTotal: TSh ${money(total())}\nNotes: ${form.get('notes')||'None'}\n\nThis is a sample. No real order has been placed.`;showSuccess(name,orderText);});
 }
 function showSuccess(name,text){
-  bagView='success';content.innerHTML=`<div class="order-success"><span aria-hidden="true">✳</span><h3>NOW THAT’S<br>A GOOD MEAL, ${escapeText(name)}.</h3><p>Your demo meal is ready to save. No real order has been placed and no payment has been taken.</p><button class="button primary save-meal">Save meal summary <span aria-hidden="true">↓</span></button><p><button class="back-to-bag">Keep exploring the menu</button></p></div>`;
+  bagView='success';content.innerHTML=`<div class="order-success"><span aria-hidden="true">✓</span><h3>A table well set,<br><em>${escapeText(name)}.</em></h3><p>Your demo meal is ready to save. No real order has been placed and no payment has been taken.</p><button class="button primary save-meal">Save meal summary <span aria-hidden="true">↓</span></button><p><button class="back-to-bag">Keep exploring the menu</button></p></div>`;
   content.scrollTop=0;content.querySelector('.save-meal').focus();content.querySelector('.save-meal').addEventListener('click',()=>{const blob=new Blob([text],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='shishi-demo-meal.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});content.querySelector('.back-to-bag').addEventListener('click',closeBag);
 }
 const toggle=document.querySelector('.mobile-toggle'),mobileNav=document.querySelector('.mobile-nav');
@@ -77,4 +77,56 @@ mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{toggl
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!mobileNav.hidden){mobileNav.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open navigation');toggle.focus();}});
 const navObserver = new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting)document.querySelectorAll('.desktop-nav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')===`#${entry.target.id}`));}),{rootMargin:'-15% 0px -50% 0px'});
 ['menu','story','table'].forEach(id=>navObserver.observe(document.getElementById(id)));
+
+// Motion is progressive enhancement. System preferences and the visitor control win.
+const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+const finePointer=matchMedia('(hover: hover) and (pointer: fine)');
+let motionPaused=false;
+try{motionPaused=localStorage.getItem('shishi-motion')==='paused';}catch{}
+const motionEnabled=()=>!reducedMotion.matches&&!motionPaused;
+const motionToggle=document.querySelector('.motion-toggle');
+function syncMotion(){
+  document.documentElement.classList.toggle('motion-paused',motionPaused);
+  document.body.classList.toggle('motion-ready',!reducedMotion.matches);
+  motionToggle.setAttribute('aria-pressed',String(motionPaused));
+  motionToggle.innerHTML=motionPaused?'Resume motion <span aria-hidden="true">▷</span>':'Pause motion <span aria-hidden="true">Ⅱ</span>';
+  if(!motionEnabled()){document.documentElement.style.setProperty('--hero-shift','0px');document.querySelectorAll('.magnetic').forEach(el=>el.style.transform='');document.querySelector('.plate-motion').style.transform='';}
+}
+motionToggle.addEventListener('click',()=>{motionPaused=!motionPaused;try{localStorage.setItem('shishi-motion',motionPaused?'paused':'playing');}catch{}syncMotion();});
+reducedMotion.addEventListener('change',syncMotion);
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target);}}),{threshold:.12,rootMargin:'0px 0px -24px 0px'});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=`${i%2*90}ms`;revealObserver.observe(el);});
+let scrollQueued=false;
+const header=document.querySelector('.header');
+function updateScroll(){
+  const y=window.scrollY;
+  const distance=document.documentElement.scrollHeight-innerHeight;
+  document.documentElement.style.setProperty('--scroll-progress',distance>0?Math.min(1,y/distance):0);
+  document.documentElement.style.setProperty('--hero-shift',motionEnabled()?`${Math.min(y,700)}px`:'0px');
+  header.classList.toggle('scrolled',y>60);
+  scrollQueued=false;
+}
+window.addEventListener('scroll',()=>{if(!scrollQueued){scrollQueued=true;requestAnimationFrame(updateScroll);}},{passive:true});
+window.addEventListener('resize',updateScroll,{passive:true});
+document.querySelectorAll('.magnetic').forEach(button=>{
+  button.addEventListener('pointermove',e=>{if(!motionEnabled()||!finePointer.matches)return;const r=button.getBoundingClientRect();button.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.075}px,${(e.clientY-r.top-r.height/2)*.12}px)`;});
+  button.addEventListener('pointerleave',()=>button.style.transform='');
+});
+const heroArt=document.querySelector('.hero-art');
+heroArt.addEventListener('pointermove',e=>{if(!motionEnabled()||!finePointer.matches)return;const r=heroArt.getBoundingClientRect();document.querySelector('.plate-motion').style.transform=`translate(${(e.clientX-r.left-r.width/2)*.018}px,${(e.clientY-r.top-r.height/2)*.018}px)`;});
+heroArt.addEventListener('pointerleave',()=>document.querySelector('.plate-motion').style.transform='');
+
+const spiceCopy={cardamom:'Small green pods. A beautiful, fragrant warmth. That familiar note that makes you lean a little closer to the pilau pot.',clove:'A tiny bud with a bold personality. Deep, warming and wonderfully aromatic — a little coastal character in the spice mix.',cinnamon:'Earthy, gently sweet, and made for slow cooking. The quiet warmth that brings the whole pot together.'};
+const spiceTabs=[...document.querySelectorAll('[data-spice]')];
+function selectSpice(button){
+  spiceTabs.forEach(tab=>{const selected=tab===button;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;});
+  document.querySelectorAll('.botanical').forEach(art=>art.setAttribute('hidden',''));
+  document.querySelector(`.botanical-${button.dataset.spice}`).removeAttribute('hidden');
+  const panel=document.querySelector('#spice-description');panel.setAttribute('aria-labelledby',button.id);panel.innerHTML=`<p>${spiceCopy[button.dataset.spice]}</p>`;
+}
+spiceTabs.forEach((button,index)=>{
+  button.addEventListener('click',()=>selectSpice(button));
+  button.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(index+1)%spiceTabs.length;else if(e.key==='ArrowLeft')next=(index+spiceTabs.length-1)%spiceTabs.length;else if(e.key==='Home')next=0;else if(e.key==='End')next=spiceTabs.length-1;else return;e.preventDefault();selectSpice(spiceTabs[next]);spiceTabs[next].focus();});
+});
+syncMotion();updateScroll();
 persist();renderMenu();document.querySelector('#year').textContent=new Date().getFullYear();
