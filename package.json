@@ -1,1 +1,1 @@
-{"name":"shishi-foodz","version":"1.0.0","private":true,"description":"Shishi Foodz — a custom Tanzanian restaurant concept","scripts":{"start":"node server.mjs","check":"node --check dist/app.js"},"type":"module"}
+{"name":"shishi-foodz","version":"2.0.0","private":true,"description":"Shishi Foodz — a cinematic Tanzanian restaurant concept","scripts":{"start":"node server.mjs","dev":"node server.mjs","check":"node --check dist/app.js"},"type":"module"}

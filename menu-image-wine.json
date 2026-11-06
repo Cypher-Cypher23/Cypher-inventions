@@ -1,0 +1,308 @@
+[
+  {
+    "id": "altar-wine",
+    "name": "Altar Wine",
+    "image": "assets/menu-items/altar-wine.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 1: camera at table level with softly blurred background, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One dark green Tanzanian altar wine bottle, burgundy-red wine visible in a small stemmed tasting glass. Cream label clearly reads 'ALTAR WINE', restrained small grape motif, burgundy foil capsule.",
+    "status": "ready",
+    "notes": "Source does not identify producer or bottle size; neutral source-name label, not a claim of verified packaging.",
+    "sources": [
+      "https://shishifood.com/wp-content/uploads/2026/10/Shishifoodmenu.html"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-e7d01800-d668-4003-b67e-19124642bf28.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "613b6c6c6d0470b4b0921da670784216896b1c3d1c7ca6486af740bed2179872",
+    "bytes": 2002385,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "saint-anna-wine",
+    "name": "Saint Anna Wine",
+    "image": "assets/menu-items/saint-anna-wine.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 2: camera at slightly above the table with a gentle three-quarter view, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One Saint Anna Tanzanian sweet wine bottle, dark olive glass, cream and burgundy Saint Anna wine label, red wine in a small glass; small pair of dark grapes.",
+    "status": "ready",
+    "notes": "Sweet/red variant chosen for illustration; source does not identify variant or size.",
+    "sources": [
+      "https://www.mrbottleliquor.com/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-e188cd7c-4d77-4e32-8232-782beadf8889.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "5622359b4be878d0a32537a92fc19716361885687ad96ad7587e26ac0cea7f1b",
+    "bytes": 2138475,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "kwv-750ml",
+    "name": "KWV 750ML",
+    "image": "assets/menu-items/kwv-750ml.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 3: camera at a level, straight-on product view, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One recognizable full-size 750ml KWV South African red wine bottle: dark green classic Bordeaux glass, cream label with prominent 'KWV', burgundy capsule, matching deep garnet wine in a simple stemmed glass.",
+    "status": "ready",
+    "notes": "KWV wine type is unspecified on source; red wine selected as illustrative variant.",
+    "sources": [
+      "https://kwv.co.za/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-867a3d31-63e5-4817-8c48-66287a4057b3.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "d3d589d33550d3f7689577b6beb01f010d6d426ac92f764d0b0b3c72cdc66ca5",
+    "bytes": 2066428,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "dompo-wine-750ml",
+    "name": "Dompo Wine 750ML",
+    "image": "assets/menu-items/dompo-wine-750ml.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 4: camera at table level with softly blurred background, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One full-size 750ml Dompo Tanzanian fortified sweet red wine bottle, dark glass, distinctive cream label with prominent 'DOMPO' and grape imagery, red foil capsule, small ruby-red pour in a stemmed glass. Dompo wine, not another brand.",
+    "status": "ready",
+    "notes": "750ml Dompo is specified. Packaging interpreted rather than verified product photograph.",
+    "sources": [
+      "https://crdbbank.co.tz/storage/app/media/Forms%20and%20Guides/Tembo-News-Special-Edition.pdf"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-17bfdf9e-77f8-4646-9b5c-716a583b694d.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "97bfffabfa1c6be834fe5455ddf9b800c51c332237c920cc31f3c882bc07528a",
+    "bytes": 2050632,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "dodoma-red-wine-750ml",
+    "name": "Dodoma Red Wine 750ML",
+    "image": "assets/menu-items/dodoma-red-wine-750ml.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 5: camera at slightly above the table with a gentle three-quarter view, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One 750ml Tanzanian Dodoma Dry Red wine bottle, dark green tall Bordeaux bottle, cream label with the lowercase word 'dodoma' and 'DRY RED', deep red foil capsule, dark ruby wine in one glass. A tiny cork lies beside the glass.",
+    "status": "ready",
+    "notes": "Dry red is an illustrative choice for source's red wine listing.",
+    "sources": [
+      "https://tanzaniabreweries.co.tz/sites/g/files/wnfebl10571/files/2025-07/2024_Annual_Report_TBL_July_1_.pdf"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-8cb039d3-2ee0-4d41-a0a7-48734a58032a.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "17bf57c5f642bb0f97e524af44cda954caf199de0a746a62789024ff9d376ac7",
+    "bytes": 2198174,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "drost-hof-750ml",
+    "name": "Drost Hof 750ML",
+    "image": "assets/menu-items/drost-hof-750ml.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 6: camera at a level, straight-on product view, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One 750ml Drostdy-Hof South African red wine bottle, classic dark green glass, cream label with distinctive historic Cape Dutch manor illustration and text 'DROSTDY-HOF', burgundy neck capsule, one glass of red wine.",
+    "status": "ready",
+    "notes": "Interprets menu spelling 'Drost Hof' as Drostdy-Hof; exact variant unspecified.",
+    "sources": [
+      "https://drostdyhof.com/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-46f5b3b9-4036-490b-8027-c12f1b044300.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "f0bd5b643b0451ce7b5b7de7fc1cc1a36c56b9e4368d26fb78c611896ebad4e6",
+    "bytes": 2136237,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "serengeti-wine",
+    "name": "Serengeti Wine",
+    "image": "assets/menu-items/serengeti-wine.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 7: camera at table level with softly blurred background, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One Tanzanian Serengeti wine bottle, NOT a beer bottle: tall dark green wine bottle, elegant cream label reading 'SERENGETI WINE' with restrained small acacia tree illustration, burgundy capsule, stemmed glass of rich red wine, two dark grapes.",
+    "status": "ready",
+    "notes": "Source does not identify exact wine producer/variant; source-name label is illustrative, not verified packaging.",
+    "sources": [
+      "https://shishifood.com/wp-content/uploads/2026/10/Shishifoodmenu.html"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-b233b8ca-2a5a-4ad0-99ce-92e2585f635c.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "97233d8cbf38cada53da5f1b8730e3fa1a09a2857ac2d621b90455735c385628",
+    "bytes": 2012328,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "robertson",
+    "name": "Robertson",
+    "image": "assets/menu-items/robertson.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 8: camera at slightly above the table with a gentle three-quarter view, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One Robertson Winery South African red wine bottle, dark green Bordeaux glass, cream label reading 'ROBERTSON WINERY' with the recognizable old winery/chapel illustration, red capsule, a simple stemmed glass of red wine with realistic reflections.",
+    "status": "ready",
+    "notes": "Source does not identify Robertson variant; red wine selected for illustration.",
+    "sources": [
+      "https://robertsonwinery.co.za/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-bd9c78ee-fe31-4a46-9ee3-7146cf530e27.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "2350ec7bce720bfb3c8f1fff3b4f006e6781ac29e3eb884fe3b9af07f571050d",
+    "bytes": 2089781,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "chenin-blank",
+    "name": "Chenin Blank",
+    "image": "assets/menu-items/chenin-blank.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 9: camera at a level, straight-on product view, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One greenish-clear wine bottle containing pale straw-yellow Chenin Blanc white wine, clean cream label reading only 'CHENIN BLANC' and 'WHITE WINE', no invented producer, pale gold neck capsule, stemmed glass of pale white wine with gentle condensation and a few green grapes.",
+    "status": "ready",
+    "notes": "Menu spelling interpreted as Chenin Blanc; producer is unspecified and not invented.",
+    "sources": [
+      "https://cetawico.com/our-wines/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-3dc88cc2-dc95-4d95-ac64-1c193efc7eed.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "8e05b8bf946ac398388febd6a316e0809f62337531a218275adc3aad9bb71a5e",
+    "bytes": 2151029,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "ambassador",
+    "name": "Ambassador",
+    "image": "assets/menu-items/ambassador.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 10: camera at table level with softly blurred background, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One Tanzanian CETAWICO Ambassador noble red wine bottle, tall dark green Bordeaux bottle, refined cream label with readable 'CETAWICO' and 'AMBASSADOR', dark red capsule, clear stemmed glass with deep ruby wine, small cork.",
+    "status": "ready",
+    "notes": "CETAWICO confirms Ambassador; exact packaging interpreted.",
+    "sources": [
+      "https://cetawico.com/our-wines/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-e87aeed5-2583-4eab-b17c-74fc7fce5f26.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "fc0c1c936f7e662951e0bee696b9b6ad3cfef9f5c5ab9da61fe44c3da44f9bb6",
+    "bytes": 2090904,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "sharye-wine",
+    "name": "Sharye Wine",
+    "image": "assets/menu-items/sharye-wine.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 11: camera at slightly above the table with a gentle three-quarter view, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One Tanzanian CETAWICO Sharye red wine bottle, dark green wine bottle, wine-red and cream label with prominent readable 'SHARYE' and smaller 'CETAWICO', dark capsule, one glass of intense ruby red wine, one little cluster of dark grapes.",
+    "status": "ready",
+    "notes": "CETAWICO confirms Sharye; packaging interpreted.",
+    "sources": [
+      "https://cetawico.com/our-wines/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-5b1cbc40-6fc5-49b1-82e5-000c964c45c4.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "459403a4726f40ba6fd50fae5d60172f95a2e16bacd1b37239836f306f3d798a",
+    "bytes": 2193258,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "bonne-esperance-750ml",
+    "name": "Bonne Esperance 750ML",
+    "image": "assets/menu-items/bonne-esperance-750ml.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 12: camera at a level, straight-on product view, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One full-size 750ml Bonne Esperance South African red wine bottle, dark green classic bottle, cream label with readable 'BONNE ESPERANCE' and restrained Cape Dutch architectural motif, dark red foil capsule, stemmed glass of dark red wine.",
+    "status": "ready",
+    "notes": "750ml specified; variant unspecified and red selected for illustration.",
+    "sources": [
+      "https://www.shoppers.co.tz/product-detail/691b2126d0b62e115fe900e9"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-2b5adc61-b824-48eb-b4df-877814e2b753.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "1b02363dcbd80d780d3d2fc8ec8c7b37c3d11fb7988b725f07899e2c68e4eaa4",
+    "bytes": 2117109,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "g-dodoma-rose",
+    "name": "G. Dodoma Rose",
+    "image": "assets/menu-items/g-dodoma-rose.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 13: camera at table level with softly blurred background, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One Tanzanian Dodoma Sweet Rose wine bottle, clear light-green glass showing translucent salmon-pink wine, cream label reading 'dodoma' and 'SWEET ROSÉ', rose-coloured capsule, stemmed glass filled with beautiful pink rosé wine, a few blush grapes.",
+    "status": "ready",
+    "notes": "Interprets source's G. Dodoma Rose as Dodoma rosé; producer portfolio confirms Dodoma Sweet Rose.",
+    "sources": [
+      "https://tanzaniabreweries.co.tz/sites/g/files/wnfebl10571/files/2025-07/2024_Annual_Report_TBL_July_1_.pdf"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-8ab3ea42-9523-4854-8702-41ae34dce156.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "e1f4cf1654dd8bd76cd33b03e6c37b66aad7c71fb27edc4c6a2610c5d67e4a5d",
+    "bytes": 2073848,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "dane-wine",
+    "name": "Dane Wine",
+    "image": "assets/menu-items/dane-wine.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 14: camera at slightly above the table with a gentle three-quarter view, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One DANE Tanzanian NK Super sweet red wine bottle, dark green Bordeaux glass, cream label with prominent 'DANE' and 'NK SUPER', burgundy and gold details, red capsule, stemmed glass of dark red wine, tiny wooden cork.",
+    "status": "ready",
+    "notes": "DANE official site confirms NK Super sweet red; exact source variant unspecified so NK Super selected illustratively.",
+    "sources": [
+      "https://www.danewine.co.tz/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-f24d8476-bcac-42ba-81d8-32939ebacdac.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "0a3c2c198cd1709b041c5a872c7d3437a9578c6682a36f0270fe1028672a72aa",
+    "bytes": 2167200,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "pearly-bay-wine",
+    "name": "Pearly Bay Wine",
+    "image": "assets/menu-items/pearly-bay-wine.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 15: camera at a level, straight-on product view, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One Pearly Bay South African white wine bottle, greenish clear glass containing pale golden white wine, elegant cream label clearly reading 'PEARLY BAY' with a delicate coastal bay illustration, pale gold capsule, stemmed glass of straw-yellow white wine and a few green grapes.",
+    "status": "ready",
+    "notes": "Pearly Bay colour/variant unspecified on source; sweet white variant chosen illustratively.",
+    "sources": [
+      "https://www.tbs.go.tz/uploads/files/REGISTERED%20FOOD%20PRODUCTS%20UP%20TO%20SEPTEMBER%202025.pdf"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-d6d72ec2-6788-4510-be6f-50069d15ed73.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "d83869b375d75f97812aedfc9c85d66b206a338cf6c006be93d1fc85b6c6e63e",
+    "bytes": 2191394,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "pour-cousin-750ml",
+    "name": "Pour Cousin 750ML",
+    "image": "assets/menu-items/pour-cousin-750ml.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 16: camera at table level with softly blurred background, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One 750ml Four Cousins Natural Sweet Red wine bottle, dark green round-shouldered bottle, cream label with prominent 'FOUR COUSINS' and the recognizable four-person portrait illustration, red capsule, stemmed glass of ruby wine.",
+    "status": "ready",
+    "notes": "Interprets menu spelling Pour Cousin as Four Cousins; red variant illustrative.",
+    "sources": [
+      "https://fourcousins.co.za/"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-75800f4b-4dc2-4822-87d8-78b1d154cde5.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "ca25b842eabee04312bc66e82d80b65a38d39e098d3a0706b55d3a5c87b24a09",
+    "bytes": 2099249,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "tullys-wine",
+    "name": "Tullys Wine",
+    "image": "assets/menu-items/tullys-wine.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 17: camera at slightly above the table with a gentle three-quarter view, glass positioned slightly left and in front of the bottle, balanced uncluttered framing. Subject: One Tanzanian Tully's wine bottle, dark green wine glass, cream and deep burgundy label with prominent 'TULLY’S' and 'SWEET RED WINE', red foil capsule, one glass of red wine with a small group of dark grapes.",
+    "status": "ready",
+    "notes": "Tully's brand confirmed by producer-owned Robbins directory listing; source variant unspecified, sweet red chosen illustratively.",
+    "sources": [
+      "https://www.tanzapages.com/company/14447/ROBBINS_ENTERPRISES"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-e5bda3a7-4cd5-467d-a78a-ea7db0778a0c.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "0a098b08807a332464dd9c46b7249a7ac23b6f6a7b21542c365f942590783b50",
+    "bytes": 2206000,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  },
+  {
+    "id": "image-750ml",
+    "name": "Image 750ML",
+    "image": "assets/menu-items/image-750ml.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: one individual portrait 3:4 product photograph for a premium Tanzanian restaurant's cinematic menu. Warm ivory linen tabletop, oxblood burgundy fabric at one far edge and soft warm background. Natural warm side light, realistic glass reflections, tactile linen, high quality editorial 50mm product photograph. Full bottle centered and completely inside frame, with at least 12 percent clear margin above the cap, below base and on each side, safe for portrait cover crop. Focus sharp on bottle label. No people, hands, UI, price overlay, extra bottles or watermarks. This is a newly generated interpretation of the named product, not a collage. Individual composition 18: camera at a level, straight-on product view, glass positioned slightly right and in front of the bottle, balanced uncluttered framing. Subject: One 750ml Tanzanian Image Dry Red wine bottle, dark green tall Bordeaux bottle, cream label prominently reading 'IMAGE' and 'DRY RED', dark red capsule, deep red wine in a crystal-clear stemmed glass, small cork. The label must say IMAGE, not Imagi.",
+    "status": "ready",
+    "notes": "Alko Vintages Image brand corroborated by producer profile; exact label design interpreted.",
+    "sources": [
+      "https://crdbbank.co.tz/storage/app/media/Forms%20and%20Guides/Tembo-News-Special-Edition.pdf"
+    ],
+    "generatedPath": "C:\\Users\\WESTeks\\.codex\\generated_images\\01a1ac95-27e5-7232-985c-ea26cd0d4065\\exec-8b999547-b40f-433f-a442-aabc586904a1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "57c55a219e7bec4d3820dc24f62dde11fa28d52ff8cb264b93360a2f012dff17",
+    "bytes": 2105167,
+    "validation": "Opened in full contact sheet; distinct subject/label, wine colour, complete bottle framing and image quality checked."
+  }
+]

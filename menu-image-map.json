@@ -1,0 +1,469 @@
+{
+  "excludedIds": [
+    "foel-plain",
+    "mafyonso"
+  ],
+  "exclusionReason": "User requested these two unclear menu entries be left out.",
+  "images": {
+    "wali-ugali-kuku-roast": {
+      "src": "assets/menu-items/wali-ugali-kuku-roast.png",
+      "position": "50% 50%",
+      "alt": "Wali / Ugali kuku roast, individually illustrated for the Shishi menu"
+    },
+    "wali-ugali-kuku-choma": {
+      "src": "assets/menu-items/wali-ugali-kuku-choma.png",
+      "position": "50% 50%",
+      "alt": "Wali / Ugali kuku choma, individually illustrated for the Shishi menu"
+    },
+    "wali-ugali-maini": {
+      "src": "assets/menu-items/wali-ugali-maini.png",
+      "position": "50% 50%",
+      "alt": "Wali / Ugali maini, individually illustrated for the Shishi menu"
+    },
+    "ugali": {
+      "src": "assets/menu-items/ugali.png",
+      "position": "50% 50%",
+      "alt": "Wali / Ugali nyama, individually illustrated for the Shishi menu"
+    },
+    "wali-ugali-mbuzi": {
+      "src": "assets/menu-items/wali-ugali-mbuzi.png",
+      "position": "50% 50%",
+      "alt": "Wali / Ugali mbuzi, individually illustrated for the Shishi menu"
+    },
+    "wali-ugali-samaki-makavu": {
+      "src": "assets/menu-items/wali-ugali-samaki-makavu.png",
+      "position": "50% 50%",
+      "alt": "Wali / Ugali samaki makavu, individually illustrated for the Shishi menu"
+    },
+    "makange-samaki-roast": {
+      "src": "assets/menu-items/makange-samaki-roast.png",
+      "position": "50% 50%",
+      "alt": "Makange samaki roast, individually illustrated for the Shishi menu"
+    },
+    "makange-kuku-broiler": {
+      "src": "assets/menu-items/makange-kuku-broiler.png",
+      "position": "50% 50%",
+      "alt": "Makange kuku broiler, individually illustrated for the Shishi menu"
+    },
+    "makange-kuku-kienyeji-nusu": {
+      "src": "assets/menu-items/makange-kuku-kienyeji-nusu.png",
+      "position": "50% 50%",
+      "alt": "Makange kuku kienyeji nusu, individually illustrated for the Shishi menu"
+    },
+    "makange-firigis": {
+      "src": "assets/menu-items/makange-firigis.png",
+      "position": "50% 50%",
+      "alt": "Makange firigis, individually illustrated for the Shishi menu"
+    },
+    "mche-msho-robo": {
+      "src": "assets/menu-items/mche-msho-robo.png",
+      "position": "50% 50%",
+      "alt": "Mche msho robo, individually illustrated for the Shishi menu"
+    },
+    "chips-ndizi-kuku": {
+      "src": "assets/menu-items/chips-ndizi-kuku.png",
+      "position": "50% 50%",
+      "alt": "Chips / ndizi kuku, individually illustrated for the Shishi menu"
+    },
+    "biryani": {
+      "src": "assets/menu-items/biryani.png",
+      "position": "50% 50%",
+      "alt": "Biriani kuku kisasa, individually illustrated for the Shishi menu"
+    },
+    "biriani-kuku-kienyeji": {
+      "src": "assets/menu-items/biriani-kuku-kienyeji.png",
+      "position": "50% 50%",
+      "alt": "Biriani kuku kienyeji, individually illustrated for the Shishi menu"
+    },
+    "biriani-nyama": {
+      "src": "assets/menu-items/biriani-nyama.png",
+      "position": "50% 50%",
+      "alt": "Biriani nyama, individually illustrated for the Shishi menu"
+    },
+    "pilau-kuku-kisasa": {
+      "src": "assets/menu-items/pilau-kuku-kisasa.png",
+      "position": "50% 50%",
+      "alt": "Pilau kuku kisasa, individually illustrated for the Shishi menu"
+    },
+    "pilau": {
+      "src": "assets/menu-items/pilau.png",
+      "position": "50% 50%",
+      "alt": "Pilau nyama, individually illustrated for the Shishi menu"
+    },
+    "pilau-kuku-kienyeji": {
+      "src": "assets/menu-items/pilau-kuku-kienyeji.png",
+      "position": "50% 50%",
+      "alt": "Pilau kuku kienyeji, individually illustrated for the Shishi menu"
+    },
+    "chipsi": {
+      "src": "assets/menu-items/chipsi.png",
+      "position": "50% 50%",
+      "alt": "Chips yai, individually illustrated for the Shishi menu"
+    },
+    "chips-plain": {
+      "src": "assets/menu-items/chips-plain.png",
+      "position": "50% 50%",
+      "alt": "Chips plain, individually illustrated for the Shishi menu"
+    },
+    "ugali-wali-plain": {
+      "src": "assets/menu-items/ugali-wali-plain.png",
+      "position": "50% 50%",
+      "alt": "Ugali / Wali plain, individually illustrated for the Shishi menu"
+    },
+    "pilau-biriani-plain": {
+      "src": "assets/menu-items/pilau-biriani-plain.png",
+      "position": "50% 50%",
+      "alt": "Pilau / Biriani plain, individually illustrated for the Shishi menu"
+    },
+    "wings-and-drumstic": {
+      "src": "assets/menu-items/wings-and-drumstic.png",
+      "position": "50% 50%",
+      "alt": "Wings and drumstic, individually illustrated for the Shishi menu"
+    },
+    "hennessy-200ml": {
+      "src": "assets/menu-items/hennessy-200ml.png",
+      "position": "50% 50%",
+      "alt": "Hennessy 200ML, individually illustrated for the Shishi menu"
+    },
+    "hennessy-350ml": {
+      "src": "assets/menu-items/hennessy-350ml.png",
+      "position": "50% 50%",
+      "alt": "Hennessy 350ML, individually illustrated for the Shishi menu"
+    },
+    "hennessy-750ml": {
+      "src": "assets/menu-items/hennessy-750ml.png",
+      "position": "50% 50%",
+      "alt": "Hennessy 750ML, individually illustrated for the Shishi menu"
+    },
+    "hennessy-1ltr": {
+      "src": "assets/menu-items/hennessy-1ltr.png",
+      "position": "50% 50%",
+      "alt": "Hennessy 1LTR, individually illustrated for the Shishi menu"
+    },
+    "hennessy-vs-op": {
+      "src": "assets/menu-items/hennessy-vs-op.png",
+      "position": "50% 50%",
+      "alt": "Hennessy VS.OP, individually illustrated for the Shishi menu"
+    },
+    "jb-200ml": {
+      "src": "assets/menu-items/jb-200ml.png",
+      "position": "50% 50%",
+      "alt": "JB 200ML, individually illustrated for the Shishi menu"
+    },
+    "jb-750ml": {
+      "src": "assets/menu-items/jb-750ml.png",
+      "position": "50% 50%",
+      "alt": "JB 750ML, individually illustrated for the Shishi menu"
+    },
+    "jack-daniel-750": {
+      "src": "assets/menu-items/jack-daniel-750.png",
+      "position": "50% 50%",
+      "alt": "Jack Daniel 750, individually illustrated for the Shishi menu"
+    },
+    "jack-daniel-200ml": {
+      "src": "assets/menu-items/jack-daniel-200ml.png",
+      "position": "50% 50%",
+      "alt": "Jack Daniel 200ML, individually illustrated for the Shishi menu"
+    },
+    "jack-daniel-350ml": {
+      "src": "assets/menu-items/jack-daniel-350ml.png",
+      "position": "50% 50%",
+      "alt": "Jack Daniel 350ML, individually illustrated for the Shishi menu"
+    },
+    "jager-master-750ml": {
+      "src": "assets/menu-items/jager-master-750ml.png",
+      "position": "50% 50%",
+      "alt": "Jager Master 750ML, individually illustrated for the Shishi menu"
+    },
+    "jager-master-200ml": {
+      "src": "assets/menu-items/jager-master-200ml.png",
+      "position": "50% 50%",
+      "alt": "Jager Master 200ML, individually illustrated for the Shishi menu"
+    },
+    "jager-master-350ml": {
+      "src": "assets/menu-items/jager-master-350ml.png",
+      "position": "50% 50%",
+      "alt": "Jager Master 350ML, individually illustrated for the Shishi menu"
+    },
+    "red-label-750ml": {
+      "src": "assets/menu-items/red-label-750ml.png",
+      "position": "50% 50%",
+      "alt": "Red Label 750ML, individually illustrated for the Shishi menu"
+    },
+    "ballantine-200ml": {
+      "src": "assets/menu-items/ballantine-200ml.png",
+      "position": "50% 50%",
+      "alt": "Ballantine 200ML, individually illustrated for the Shishi menu"
+    },
+    "ballantine-750ml": {
+      "src": "assets/menu-items/ballantine-750ml.png",
+      "position": "50% 50%",
+      "alt": "Ballantine 750ML, individually illustrated for the Shishi menu"
+    },
+    "black-white-200ml": {
+      "src": "assets/menu-items/black-white-200ml.png",
+      "position": "50% 50%",
+      "alt": "Black & White 200ML, individually illustrated for the Shishi menu"
+    },
+    "black-white-750ml": {
+      "src": "assets/menu-items/black-white-750ml.png",
+      "position": "50% 50%",
+      "alt": "Black & White 750ML, individually illustrated for the Shishi menu"
+    },
+    "hanson-choice-250ml": {
+      "src": "assets/menu-items/hanson-choice-250ml.png",
+      "position": "50% 50%",
+      "alt": "Hanson Choice 250ML, individually illustrated for the Shishi menu"
+    },
+    "hanson-choice-750ml": {
+      "src": "assets/menu-items/hanson-choice-750ml.png",
+      "position": "50% 50%",
+      "alt": "Hanson Choice 750ML, individually illustrated for the Shishi menu"
+    },
+    "red-label-200ml": {
+      "src": "assets/menu-items/red-label-200ml.png",
+      "position": "50% 50%",
+      "alt": "Red Label 200ML, individually illustrated for the Shishi menu"
+    },
+    "magic-moment": {
+      "src": "assets/menu-items/magic-moment.png",
+      "position": "50% 50%",
+      "alt": "Magic Moment, individually illustrated for the Shishi menu"
+    },
+    "grants-200ml": {
+      "src": "assets/menu-items/grants-200ml.png",
+      "position": "50% 50%",
+      "alt": "Grants 200ML, individually illustrated for the Shishi menu"
+    },
+    "captain-morgan-750ml": {
+      "src": "assets/menu-items/captain-morgan-750ml.png",
+      "position": "50% 50%",
+      "alt": "Captain Morgan 750ML, individually illustrated for the Shishi menu"
+    },
+    "amarula-200ml": {
+      "src": "assets/menu-items/amarula-200ml.png",
+      "position": "50% 50%",
+      "alt": "Amarula 200ML, individually illustrated for the Shishi menu"
+    },
+    "altar-wine": {
+      "src": "assets/menu-items/altar-wine.png",
+      "position": "50% 50%",
+      "alt": "Altar Wine, individually illustrated for the Shishi menu"
+    },
+    "saint-anna-wine": {
+      "src": "assets/menu-items/saint-anna-wine.png",
+      "position": "50% 50%",
+      "alt": "Saint Anna Wine, individually illustrated for the Shishi menu"
+    },
+    "kwv-750ml": {
+      "src": "assets/menu-items/kwv-750ml.png",
+      "position": "50% 50%",
+      "alt": "KWV 750ML, individually illustrated for the Shishi menu"
+    },
+    "dompo-wine-750ml": {
+      "src": "assets/menu-items/dompo-wine-750ml.png",
+      "position": "50% 50%",
+      "alt": "Dompo Wine 750ML, individually illustrated for the Shishi menu"
+    },
+    "dodoma-red-wine-750ml": {
+      "src": "assets/menu-items/dodoma-red-wine-750ml.png",
+      "position": "50% 50%",
+      "alt": "Dodoma Red Wine 750ML, individually illustrated for the Shishi menu"
+    },
+    "drost-hof-750ml": {
+      "src": "assets/menu-items/drost-hof-750ml.png",
+      "position": "50% 50%",
+      "alt": "Drost Hof 750ML, individually illustrated for the Shishi menu"
+    },
+    "serengeti-wine": {
+      "src": "assets/menu-items/serengeti-wine.png",
+      "position": "50% 50%",
+      "alt": "Serengeti Wine, individually illustrated for the Shishi menu"
+    },
+    "robertson": {
+      "src": "assets/menu-items/robertson.png",
+      "position": "50% 50%",
+      "alt": "Robertson, individually illustrated for the Shishi menu"
+    },
+    "chenin-blank": {
+      "src": "assets/menu-items/chenin-blank.png",
+      "position": "50% 50%",
+      "alt": "Chenin Blank, individually illustrated for the Shishi menu"
+    },
+    "ambassador": {
+      "src": "assets/menu-items/ambassador.png",
+      "position": "50% 50%",
+      "alt": "Ambassador, individually illustrated for the Shishi menu"
+    },
+    "sharye-wine": {
+      "src": "assets/menu-items/sharye-wine.png",
+      "position": "50% 50%",
+      "alt": "Sharye Wine, individually illustrated for the Shishi menu"
+    },
+    "bonne-esperance-750ml": {
+      "src": "assets/menu-items/bonne-esperance-750ml.png",
+      "position": "50% 50%",
+      "alt": "Bonne Esperance 750ML, individually illustrated for the Shishi menu"
+    },
+    "g-dodoma-rose": {
+      "src": "assets/menu-items/g-dodoma-rose.png",
+      "position": "50% 50%",
+      "alt": "G. Dodoma Rose, individually illustrated for the Shishi menu"
+    },
+    "dane-wine": {
+      "src": "assets/menu-items/dane-wine.png",
+      "position": "50% 50%",
+      "alt": "Dane Wine, individually illustrated for the Shishi menu"
+    },
+    "pearly-bay-wine": {
+      "src": "assets/menu-items/pearly-bay-wine.png",
+      "position": "50% 50%",
+      "alt": "Pearly Bay Wine, individually illustrated for the Shishi menu"
+    },
+    "pour-cousin-750ml": {
+      "src": "assets/menu-items/pour-cousin-750ml.png",
+      "position": "50% 50%",
+      "alt": "Pour Cousin 750ML, individually illustrated for the Shishi menu"
+    },
+    "tullys-wine": {
+      "src": "assets/menu-items/tullys-wine.png",
+      "position": "50% 50%",
+      "alt": "Tullys Wine, individually illustrated for the Shishi menu"
+    },
+    "image-750ml": {
+      "src": "assets/menu-items/image-750ml.png",
+      "position": "50% 50%",
+      "alt": "Image 750ML, individually illustrated for the Shishi menu"
+    },
+    "konyagi-700ml": {
+      "src": "assets/menu-items/konyagi-700ml.png",
+      "position": "50% 50%",
+      "alt": "Konyagi 700ML, individually illustrated for the Shishi menu"
+    },
+    "konyagi-ndogo": {
+      "src": "assets/menu-items/konyagi-ndogo.png",
+      "position": "50% 50%",
+      "alt": "Konyagi Ndogo, individually illustrated for the Shishi menu"
+    },
+    "k-vant-ndogo": {
+      "src": "assets/menu-items/k-vant-ndogo.png",
+      "position": "50% 50%",
+      "alt": "K-Vant Ndogo, individually illustrated for the Shishi menu"
+    },
+    "k-vant-750ml": {
+      "src": "assets/menu-items/k-vant-750ml.png",
+      "position": "50% 50%",
+      "alt": "K-Vant 750ML, individually illustrated for the Shishi menu"
+    },
+    "godons-200ml": {
+      "src": "assets/menu-items/godons-200ml.png",
+      "position": "50% 50%",
+      "alt": "Godons 200ML, individually illustrated for the Shishi menu"
+    },
+    "absolute-vodka-200ml": {
+      "src": "assets/menu-items/absolute-vodka-200ml.png",
+      "position": "50% 50%",
+      "alt": "Absolute Vodka 200ML, individually illustrated for the Shishi menu"
+    },
+    "absolute-vodka-750ml": {
+      "src": "assets/menu-items/absolute-vodka-750ml.png",
+      "position": "50% 50%",
+      "alt": "Absolute Vodka 750ML, individually illustrated for the Shishi menu"
+    },
+    "absolute-vodka-1ltr": {
+      "src": "assets/menu-items/absolute-vodka-1ltr.png",
+      "position": "50% 50%",
+      "alt": "Absolute Vodka 1LTR, individually illustrated for the Shishi menu"
+    },
+    "heinken": {
+      "src": "assets/menu-items/heinken.png",
+      "position": "50% 50%",
+      "alt": "HeinKen, individually illustrated for the Shishi menu"
+    },
+    "windock": {
+      "src": "assets/menu-items/windock.png",
+      "position": "50% 50%",
+      "alt": "Windock, individually illustrated for the Shishi menu"
+    },
+    "desperado": {
+      "src": "assets/menu-items/desperado.png",
+      "position": "50% 50%",
+      "alt": "Desperado, individually illustrated for the Shishi menu"
+    },
+    "savannah": {
+      "src": "assets/menu-items/savannah.png",
+      "position": "50% 50%",
+      "alt": "Savannah, individually illustrated for the Shishi menu"
+    },
+    "flying-fish": {
+      "src": "assets/menu-items/flying-fish.png",
+      "position": "50% 50%",
+      "alt": "Flying Fish, individually illustrated for the Shishi menu"
+    },
+    "local-beer": {
+      "src": "assets/menu-items/local-beer.png",
+      "position": "50% 50%",
+      "alt": "Local Beer, individually illustrated for the Shishi menu"
+    },
+    "kilimanjaro-light": {
+      "src": "assets/menu-items/kilimanjaro-light.png",
+      "position": "50% 50%",
+      "alt": "Kilimanjaro Light, individually illustrated for the Shishi menu"
+    },
+    "brutial": {
+      "src": "assets/menu-items/brutial.png",
+      "position": "50% 50%",
+      "alt": "Brutial, individually illustrated for the Shishi menu"
+    },
+    "smirnoff-ice": {
+      "src": "assets/menu-items/smirnoff-ice.png",
+      "position": "50% 50%",
+      "alt": "Smirnoff Ice, individually illustrated for the Shishi menu"
+    },
+    "red-bull": {
+      "src": "assets/menu-items/red-bull.png",
+      "position": "50% 50%",
+      "alt": "Red Bull, individually illustrated for the Shishi menu"
+    },
+    "redds": {
+      "src": "assets/menu-items/redds.png",
+      "position": "50% 50%",
+      "alt": "Redds, individually illustrated for the Shishi menu"
+    },
+    "grand-malts": {
+      "src": "assets/menu-items/grand-malts.png",
+      "position": "50% 50%",
+      "alt": "Grand Malts, individually illustrated for the Shishi menu"
+    },
+    "maziwa-mtindi": {
+      "src": "assets/menu-items/maziwa-mtindi.png",
+      "position": "50% 50%",
+      "alt": "Maziwa Mtindi, individually illustrated for the Shishi menu"
+    },
+    "spirit-whisky-cocktail": {
+      "src": "assets/menu-items/spirit-whisky-cocktail.png",
+      "position": "50% 50%",
+      "alt": "Spirit / Whisky / Cocktail, individually illustrated for the Shishi menu"
+    },
+    "tende-juice": {
+      "src": "assets/menu-items/tende-juice.png",
+      "position": "50% 50%",
+      "alt": "Tende Juice, individually illustrated for the Shishi menu"
+    },
+    "mixer-juice": {
+      "src": "assets/menu-items/mixer-juice.png",
+      "position": "50% 50%",
+      "alt": "Mixer Juice, individually illustrated for the Shishi menu"
+    },
+    "mango": {
+      "src": "assets/menu-items/mango.png",
+      "position": "50% 50%",
+      "alt": "Mango Juice, individually illustrated for the Shishi menu"
+    },
+    "spirit-mocktail": {
+      "src": "assets/menu-items/spirit-mocktail.png",
+      "position": "50% 50%",
+      "alt": "Spirit Mocktail, individually illustrated for the Shishi menu"
+    }
+  }
+}
