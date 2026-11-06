@@ -1,4 +1,6 @@
-# Shishi Foodz — an evening at our table
+# Cypher-inventions
+
+## Shishi Foodz — an evening at our table
 
 A cinematic Tanzanian restaurant concept inspired by the supplied split-menu reference.
 
